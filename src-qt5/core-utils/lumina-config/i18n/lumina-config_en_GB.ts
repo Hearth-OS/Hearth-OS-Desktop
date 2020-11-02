@@ -1748,7 +1748,7 @@
     <message>
         <location filename="../pages/page_session_options.ui" line="274"/>
         <source>Return to Lumina defaults</source>
-        <translation>Return to Lumina defaults</translation>
+        <translation>Return to Hearth OS defaults</translation>
     </message>
     <message>
         <location filename="../pages/page_session_options.cpp" line="18"/>
