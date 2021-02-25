@@ -12,5 +12,7 @@ pool:
 steps:
 - script: |
     echo Building...
+    sudo apt update
+    sudo apt install qt5-qmake -y
     qmake
   displayName: 'Build'
