@@ -15,4 +15,10 @@ steps:
     sudo apt update
     sudo apt-get install qt5-default -y
     qmake
+    make
   displayName: 'Build'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '.'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
