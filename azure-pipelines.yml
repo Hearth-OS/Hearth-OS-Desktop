@@ -13,6 +13,6 @@ steps:
 - script: |
     echo Building...
     sudo apt update
-    sudo apt install qt5-qmake -y
+    sudo apt-get install qt5-default -y
     qmake
   displayName: 'Build'
